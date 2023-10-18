@@ -1,0 +1,132 @@
+.root {
+    -fx-background-color: #F7F7F7;
+}
+
+.go {
+    -fx-background-color: transparent;
+    -fx-border-color: #65a8f3;
+    -fx-text-fill: #65a8f3;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 20px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+}
+
+.go:hover {
+    -fx-background-color: #65a8f3;
+    -fx-text-fill: #ffffff;
+}
+
+/* Botón secundario "Volver" */
+.volver {
+    -fx-background-color: transparent;
+    -fx-border-color: #f44336;
+    -fx-text-fill: #f44336;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 20px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+}
+
+.volver:hover {
+    -fx-background-color: #f44336;
+    -fx-text-fill: #ffffff;
+}
+
+.stop-btn {
+    -fx-background-color: #EA5A5A;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 25px;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+
+.stop-btn:hover {
+    -fx-background-color: #D84D4D;
+}
+.selectdir {
+-fx-background-color: transparent;
+-fx-border-color: #f3a065;
+-fx-text-fill: #f3a065;
+-fx-font-size: 14px;
+-fx-padding: 10px 25px;
+-fx-border-radius: 50px;
+-fx-background-radius: 50px;
+}
+
+.selectdir:hover {
+    -fx-background-color: #f3a065;
+    -fx-text-fill: #ffffff;
+}
+.selectpdf {
+    -fx-background-color: #65a8f3;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 25px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0, 0, 0);
+}
+
+.selectpdf:hover {
+    -fx-background-color: #4c8cf2;
+}
+.excel-btn {
+    -fx-background-color: #2ecc71;
+    -fx-background-radius: 50px;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 25px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0, 0, 0);
+}
+
+.excel-btn:hover {
+    -fx-background-color: #27ae60;
+}
+.table-view {
+    -fx-background-color: #F7F7F7;
+}
+
+.table-row-cell {
+    -fx-text-fill: #333333;
+}
+
+.table-header-background {
+    -fx-background-color: #F7F7F7;
+}
+
+.table-header-background .label {
+    -fx-text-fill: #333333;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #FFFFFF;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #F7F7F7;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #38A3A5;
+    -fx-text-fill: #FFFFFF;
+}
+
+.link:hover {
+	-fx-underline: true;
+	-fx-font-size:12px;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: #65a8f3;
+    -fx-padding: 0 0 0 0;
+    -fx-background-radius: 0;
+}
+.link {
+	-fx-font-size:12px;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: #65a8f3;
+    -fx-padding: 0 0 0 0;
+    -fx-background-radius: 0;
+}
